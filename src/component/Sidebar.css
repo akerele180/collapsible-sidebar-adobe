@@ -43,6 +43,10 @@ h3::after {
 small {
   font-size: .6rem;
 }
+a {
+  display: flex;
+  align-items: center;
+}
 small, a {
   color: #BABBC2 !important;
 }
@@ -55,26 +59,33 @@ nav {
 }
 ul {
   margin: 0;
+  width: 100%;  
 }
 li {
   color: #BABBC2;
   list-style: none;
   display: flex;
   align-items: center;
-  padding: 10px 20px;
+  padding-left: 45px;
   align-items: center;
-  
-  /* display: inline-block; */
+  margin-bottom: 40px;
+}
+li:hover {
+  border-left: 4px solid #25487E;
+  padding-left: 41px;
 }
 a:hover, li:hover {
-  /* border-left: 4px solid #448FF8; */
-  color: #0A1128 !important;
-  font-weight: 500;
+  color: #25487E !important;
+  font-weight: 500;  
 }
 button {
   border: 0;
   padding-left: 25px;
+  font-weight: bold;
   outline: none;
   cursor: pointer;
   background: none;
+}
+button:focus, button:active {
+  color: #25487E !important;
 }

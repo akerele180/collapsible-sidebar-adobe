@@ -6,3 +6,12 @@
   align-items: center;
   width: 100%;
 }
+h1 {
+  margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  } 
+}
