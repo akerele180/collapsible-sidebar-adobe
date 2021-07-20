@@ -1,0 +1,8 @@
+.content {
+  padding: 5% 3%;
+  display: grid;
+  grid-template-columns: .5fr 1fr;
+  grid-template-rows: 10% 90%;
+  align-items: center;
+  width: 100%;
+}
