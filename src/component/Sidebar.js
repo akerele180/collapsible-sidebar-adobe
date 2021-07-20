@@ -1,31 +1,23 @@
 import React, { useState } from 'react'
 import './Sidebar.css'
 import Admin from '../assets/Admin.png';
-import {
-  BrowserRouter as Router,
-  Link,
-  Route, 
-  Switch,
-} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { MdDashboard } from 'react-icons/md';
 import { FaUserPlus } from 'react-icons/fa';
 import { 
   RiMessage2Fill, 
   RiSendPlaneFill, 
   RiFolderKeyholeFill } from 'react-icons/ri';
-  import { BiLeftIndent, BiRightIndent } from 'react-icons/bi';
+  
 
 function Sidebar() {
   const [ bar, setBar ] = useState(true);
 
-  const toggleBar = () => {
-    setBar(!bar)
-  }
   return (
     <>
       <div className={ bar ? "sidebar" : "non-sidebar"}>
       <div className="profile">
-        <img src={Admin} alt="profile-picture"/>
+        <img src={Admin} alt="admin-pics"/>
         <h3>Admin</h3>  
         <small>View Profile</small>
       </div>
