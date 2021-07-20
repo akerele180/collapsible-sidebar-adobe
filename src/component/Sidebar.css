@@ -89,3 +89,10 @@ button {
 button:focus, button:active {
   color: #25487E !important;
 }
+
+@media only screen and (max-width: 600px) {
+  .sidebar {
+    position: absolute;
+    box-shadow: 0 0 4px 0 black;
+  }  
+}
