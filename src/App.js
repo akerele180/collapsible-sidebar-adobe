@@ -21,10 +21,10 @@ export default function App() {
         {
           icon ? [
             <Sidebar className="active"/>, 
-            <AiFillLeftSquare className="active" onClick={toggleBar} style={{fontSize: 50, color: "#448FF8", position: 'relative', left: -4, top: "10%", cursor: "pointer"}} />, 
+            <AiFillRightSquare className="active" onClick={toggleBar} style={{fontSize: 50, color: "#448FF8", position: 'relative', left: -4, top: "10%", cursor: "pointer"}} />, 
             ]
           : 
-            <AiFillRightSquare className="active" onClick={toggleBar} style={{fontSize: 37, color: "#448FF8", position: 'relative', left: -4, top: "10%", cursor: "pointer"}} />
+            <AiFillLeftSquare className="active" onClick={toggleBar} style={{fontSize: 37, color: "#448FF8", position: 'relative', left: -4, top: "10%", cursor: "pointer"}} />
         }    
         <Content/>
       </Router>
