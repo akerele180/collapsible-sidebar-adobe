@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/akerele180/collapsible-sidebar-adobe.git/static/css/main.f18ab0c9.chunk.css",
+    "main.js": "/akerele180/collapsible-sidebar-adobe.git/static/js/main.b9620e8b.chunk.js",
+    "main.js.map": "/akerele180/collapsible-sidebar-adobe.git/static/js/main.b9620e8b.chunk.js.map",
+    "runtime-main.js": "/akerele180/collapsible-sidebar-adobe.git/static/js/runtime-main.192a8c90.js",
+    "runtime-main.js.map": "/akerele180/collapsible-sidebar-adobe.git/static/js/runtime-main.192a8c90.js.map",
+    "static/css/2.81b0985c.chunk.css": "/akerele180/collapsible-sidebar-adobe.git/static/css/2.81b0985c.chunk.css",
+    "static/js/2.f84a48a2.chunk.js": "/akerele180/collapsible-sidebar-adobe.git/static/js/2.f84a48a2.chunk.js",
+    "static/js/2.f84a48a2.chunk.js.map": "/akerele180/collapsible-sidebar-adobe.git/static/js/2.f84a48a2.chunk.js.map",
+    "index.html": "/akerele180/collapsible-sidebar-adobe.git/index.html",
+    "static/css/2.81b0985c.chunk.css.map": "/akerele180/collapsible-sidebar-adobe.git/static/css/2.81b0985c.chunk.css.map",
+    "static/css/main.f18ab0c9.chunk.css.map": "/akerele180/collapsible-sidebar-adobe.git/static/css/main.f18ab0c9.chunk.css.map",
+    "static/js/2.f84a48a2.chunk.js.LICENSE.txt": "/akerele180/collapsible-sidebar-adobe.git/static/js/2.f84a48a2.chunk.js.LICENSE.txt",
+    "static/media/Admin.8f52ce1a.png": "/akerele180/collapsible-sidebar-adobe.git/static/media/Admin.8f52ce1a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.192a8c90.js",
+    "static/css/2.81b0985c.chunk.css",
+    "static/js/2.f84a48a2.chunk.js",
+    "static/css/main.f18ab0c9.chunk.css",
+    "static/js/main.b9620e8b.chunk.js"
+  ]
+}
